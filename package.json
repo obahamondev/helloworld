@@ -2,14 +2,23 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "description": "## Project setup ``` npm install ```",
+  "author": "oscarbahamonde",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": ".eslintrc.js",
   "dependencies": {
+    "@aws-amplify/cli": "^7.5.1",
+    "@aws-amplify/ui-vue": "^2.0.1",
+    "aws-amplify": "^4.3.8",
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "npm": "^8.1.4",
     "vue": "^3.0.0",
+    "vue-carousel": "^0.18.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
@@ -24,5 +33,6 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
     "prettier": "^2.2.1"
-  }
+  },
+  "license": "MIT"
 }
